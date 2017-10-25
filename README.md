@@ -19,7 +19,7 @@ New firmware can be found at this repository or https://github.com/mbedmicro/DAP
 
 2. Replace `firmware.bin` with a new firmware
 
-   A drive named `CRP DISABLD` will show up on your computer. `firmware.bin` will be in the drive. On macOS, use `sudo dd if=/path/to/new_firmware.bin of=/path/to/firmware.bin`
+   A drive named `CRP DISABLD` will show up on your computer. `firmware.bin` will be in the drive. On macOS, use `sudo dd if=/path/to/new_firmware.bin of=/path/to/firmware.bin conv=notrunc`
 
 
 
